@@ -1,184 +1,131 @@
-# CFP Exam Study Repository
+# 个人技术知识画像库
 
-🎉 **I PASSED the CFP Exam on November 10, 2025!** 🎉
+一个系统化记录技术学习深度与广度的个人知识库。配合 AI（Claude / Cursor）进行对话式学习，自动追踪每个方向的掌握情况，构建持续演进的技术能力画像。
 
-This is my personal study repository that helped me pass the Certified Financial Planner (CFP) exam on my second attempt. After failing in November 2024, I rebuilt my study approach using AI-powered guided learning with Claude Code - and it made all the difference.
-
-**Thanks to AI and Claude Code**, I went from a failed attempt to **82% mastery** (60/73 topics) across 23 focused study sessions, ultimately passing the exam.
-
-**Let's connect on LinkedIn**: [linkedin.com/in/chenran818](https://linkedin.com/in/chenran818)
+> **理念**：不赶进度，每个概念掰开揉碎弄懂。面试、工作、技术分享都是知识画像的自然输出。
 
 ---
 
-**Final Exam Stats**:
-- **Exam Date**: November 10, 2025 ✅ PASSED
-- **Final Progress**: 82% (60/73 CFP topics mastered)
-- **Study Sessions**: 23 sessions (Oct 11 - Nov 7, 2025)
-- **Study Materials**: 1,088 pages (2024 Dalton Review slides)
+## 我的技术画像
 
-## How This Works
-
-This repository uses Claude Code as an interactive CFP exam tutor that:
-- Teaches using the Socratic method (asking what you know first)
-- Provides concise (~200 word) explanations
-- Verifies your understanding with follow-up questions
-- Adapts teaching style based on your responses
-- **Tracks every learning session to personalize your study experience**
-
-## Repository Structure
-
-```
-/sessions/                    # 23 daily learning sessions documented
-  /2025-10-11/               # One folder per study day
-  /2025-10-17/               # Sessions from Oct 11 - Nov 7
-  /2025-11-07/
-  SESSION-TEMPLATE.md        # Template for documenting sessions
-
-/progress/                    # Single source of truth for exam prep
-  cfp-study-tracker.md       # Comprehensive tracker with:
-                             # - All 73 CFP topics mapped
-                             # - Topics mastered (60/73)
-                             # - Knowledge gaps identified
-                             # - Study plan for remaining days
-
-/2024 Slides/                 # Complete 2024 Dalton Review materials
-  2024 TDR Estate slides.pdf
-  2024 TDR Fundamentals slides.pdf
-  2024 TDR Insurance slides.pdf
-  2024 TDR Investments slides.pdf
-  2024 TDR Retirement slides.pdf
-  2024 TDR Tax slides.pdf
-
-CLAUDE.md                     # AI tutor instructions (Socratic method)
-README.md                     # This file
-```
-
-## How to Use
-
-### Daily Study Sessions
-
-1. Open Claude Code in this repository
-2. Ask questions about CFP topics naturally - just like talking to a tutor
-3. Answer the comprehension check questions Claude asks
-4. After each session, Claude will automatically document:
-   - What you learned
-   - What you struggled with
-   - What you mastered
-   - What to review next
-
-### Review Sessions
-
-When you want to review, simply ask Claude:
-- "Let's review topics I've struggled with"
-- "What should I focus on today?"
-- "Quiz me on my weak areas"
-- "Show me my progress"
-
-Claude will read your session history and create a personalized review based on your past performance.
-
-### Track Your Progress
-
-View your comprehensive study tracker at `/progress/cfp-study-tracker.md` to see:
-- Overall exam readiness (currently 82%)
-- Which domains are complete (4 major domains ✅)
-- Remaining knowledge gaps
-- Prioritized study plan for exam day
-
-## Study Philosophy
-
-**Guided Learning Approach:**
-- Conversational and judgment-free
-- Builds on your existing knowledge
-- Checks understanding before moving forward
-- Adapts to your learning style
-- Focuses on deep understanding, not just memorization
-
-## Study Materials
-
-**2024 Dalton Review Slides** (1,088 pages total):
-- Estate Planning (200 pages)
-- Fundamentals (90 pages)
-- Insurance (188 pages)
-- Investments (188 pages)
-- Retirement (182 pages)
-- Tax (150 pages)
-
-All materials have been thoroughly mapped to the 73 CFP exam topics.
-
-## Free Study Resources
-
-In addition to the Dalton Review materials, here are some excellent **free resources** that can supplement your CFP exam prep:
-
-**Podcasts & Audio:**
-- [Open Exam Prep Podcast](https://open.spotify.com/show/55EmWfdtPaK641q4Rk3mI1) - Free CFP exam prep podcast on Spotify
-- [Financial Planning Essentials Playlist](https://open.spotify.com/playlist/6GUIZvnpaiOiYmXkanqwZ8) - Study music playlist on Spotify
-
-**Video Content:**
-- [Open Exam Prep YouTube](https://www.youtube.com/@Open-exam-prep) - Free video content covering CFP exam topics
-
-**Website:**
-- [open-exam-prep.com](https://open-exam-prep.com/) - Additional free resources and study materials
-
-These free resources are great for passive learning during commutes, workouts, or downtime.
-
-## Key Features
-
-**Personalized Learning**:
-- 23 documented study sessions with detailed notes
-- Socratic teaching method (builds on what you already know)
-- Adaptive explanations based on your responses
-- Practice problems tailored to your weak areas
-
-**Comprehensive Tracking**:
-- Every session automatically documented
-- Knowledge gaps identified and tracked
-- Topics mastered with confidence levels
-- Progress measured against exam weights
-
-**Evidence-Based Approach**:
-- All answers verified with authoritative sources (IRS.gov, CFP Board)
-- No guessing on technical questions
-- Citations provided for complex rules
-- Focus on understanding "why" not just "what"
-
-## How to Use This Repository for Your Own CFP Exam Prep
-
-Want to use this AI-powered study system for your own CFP exam preparation? It's simple:
-
-1. **Clone this repository**:
-   ```bash
-   git clone https://github.com/chenran818/CFP-Study.git
-   cd CFP-Study
-   ```
-
-2. **Clear my study history** (start fresh):
-   ```bash
-   rm -rf progress/ sessions/
-   ```
-
-3. **Run Claude Code**:
-   ```bash
-   claude-code
-   ```
-
-4. **That's it!** Start asking CFP questions and Claude will:
-   - Teach you using the Socratic method
-   - Create new `progress/` and `sessions/` folders automatically
-   - Track your learning journey just like it did for me
-   - Adapt to your learning style
-
-The `CLAUDE.md` file contains all the instructions for how Claude should tutor you. The `2024 Slides/` folder has all the study materials already mapped to CFP topics. **It works magically!**
-
-## Getting Started
-
-Just start a conversation with Claude Code and ask your first CFP question. Claude will guide you from there while automatically tracking your progress.
+| 方向 | 知识点 | 掌握进度 | 状态 | 入口 |
+|------|--------|----------|------|------|
+| **.NET Core** | 52 | 0% | 学习中 | [`tracks/dotnet-core/`](tracks/dotnet-core/) |
+| **前端开发** | 68 | 0% | 学习中 | [`tracks/frontend/`](tracks/frontend/) |
+| **CFP 理财规划师** | 73 | 82% | 已完成 | [`tracks/cfp/`](tracks/cfp/) |
 
 ---
 
-## About the Author
+## 仓库结构
 
-After failing the CFP exam in November 2024, I knew I needed a different approach. Traditional study methods weren't working for me. Using Claude Code as my AI study partner transformed my preparation - the Socratic teaching method, personalized feedback, and systematic progress tracking made complex financial planning concepts finally click.
+```
+Study-Base/
+├── CLAUDE.md                    # AI 学习伙伴指令（教学框架 + 方向调度）
+├── PROFILE.md                   # 我的学习者画像（偏好、习惯、优缺点）
+├── README.md                    # 本文件
+│
+├── templates/                   # 共享模板
+│   ├── GUIDE-TEMPLATE.md        # 新方向指南模板
+│   ├── TRACKER-TEMPLATE.md      # 新方向掌握度追踪模板
+│   └── SESSION-TEMPLATE.md      # 学习会话记录模板
+│
+└── tracks/                      # 各学习方向（核心）
+    ├── dotnet-core/             # .NET Core 技术体系
+    │   ├── GUIDE.md             # 知识领域、模块定义、学习路径
+    │   ├── tracker.md           # 掌握度追踪（AI 自动维护）
+    │   └── sessions/            # 按日期的学习会话记录
+    │       └── YYYY-MM-DD/
+    │           └── session-notes.md
+    │
+    ├── frontend/                # 前端开发技术体系
+    │   ├── GUIDE.md
+    │   ├── tracker.md
+    │   └── sessions/
+    │
+    └── cfp/                     # CFP 理财规划师（存档）
+        ├── GUIDE.md
+        ├── tracker.md
+        └── sessions/
+```
 
-If you're preparing for the CFP exam or any professional certification, I hope this repository inspires you to leverage AI tools in your learning journey.
+---
 
-**Connect with me**: [linkedin.com/in/chenran818](https://linkedin.com/in/chenran818)
+## 使用方式
+
+### 日常学习
+
+1. 在此仓库中打开 Cursor / Claude Code
+2. 直接提问，AI 会自动识别你在学哪个方向：
+   - "给我讲讲 .NET Core 的中间件管道" → 自动进入 .NET Core 方向
+   - "React 的 useEffect 到底怎么工作的？" → 自动进入前端方向
+   - "今天想学前端" → 明确切换方向
+3. AI 会用"掰开揉碎"的方式深入讲解，不赶进度
+4. 每次会话结束后，AI 自动记录学习内容并更新掌握度
+
+### 查看我的知识画像
+
+- **某个方向的掌握情况**：打开 `tracks/<方向>/tracker.md`
+- **所有方向的整体画像**：问 AI "我的知识画像整体情况怎么样？"
+- **某个知识点的学习历程**：翻看 `tracks/<方向>/sessions/` 下的会话记录
+
+### 复习与自测
+
+```
+"复习我之前标注的薄弱环节"
+"我今天该重点看哪个模块？"
+"模拟一场 .NET Core 技术面试"
+"考考我 React Hooks 的知识"
+```
+
+---
+
+## 新增一个学习方向
+
+想要添加新方向（如系统设计、Go 语言、DevOps 等）？只需 4 步：
+
+1. 创建文件夹 `tracks/<方向名>/sessions/`
+2. 复制 `templates/GUIDE-TEMPLATE.md` → `tracks/<方向名>/GUIDE.md`，填入知识体系
+3. 复制 `templates/TRACKER-TEMPLATE.md` → `tracks/<方向名>/tracker.md`，填入知识点
+4. 在 `CLAUDE.md` 的"当前学习方向"表格中添加一行
+
+或者直接告诉 AI："帮我创建一个 Go 语言方向"，它会自动完成上述步骤。
+
+---
+
+## 教学理念
+
+- **掰开揉碎**：每个概念讲透再往下走，不赶进度
+- **先直觉后原理**：先用类比建立感性认识，再逐步深入底层机制
+- **对比已有经验**：主动关联你已经会的技术，降低理解成本
+- **验证真懂**：讲完后用变体问题检验，不是"听懂了"就算掌握
+- **记录一切**：每次学习自动生成会话记录和掌握度更新，形成可追溯的知识成长轨迹
+
+---
+
+## 各方向知识体系概览
+
+### .NET Core（8 大模块，52 知识点）
+
+| 模块 | 主题 | 重要性 |
+|------|------|--------|
+| A | C# 语言核心（async/await、LINQ、泛型、委托） | 核心 |
+| B | .NET Core 运行时与框架（DI、配置、Host） | 核心 |
+| C | ASP.NET Core Web 开发（中间件、路由、Controller） | 核心 |
+| D | 数据访问（EF Core、Repository 模式、Dapper） | 重要 |
+| E | 认证与安全（JWT、Identity、OAuth） | 重要 |
+| F | 架构设计与设计模式（SOLID、Clean Architecture、CQRS） | 重要 |
+| G | 测试（xUnit、Moq、集成测试） | 进阶 |
+| H | 性能、部署与工具（缓存、Docker、CI/CD） | 进阶 |
+
+### 前端开发（8 大模块，68 知识点）
+
+| 模块 | 主题 | 重要性 |
+|------|------|--------|
+| A | HTML / CSS 基础与进阶 | 基础 |
+| B | JavaScript 核心（闭包、原型链、this、Event Loop） | 核心 |
+| C | 框架 — React（Hooks、虚拟 DOM、状态管理） | 核心 |
+| D | 浏览器原理与网络（渲染流程、HTTP、跨域） | 核心 |
+| E | 前端工程化（Webpack/Vite、TypeScript、CI/CD） | 重要 |
+| F | 性能优化（Core Web Vitals、代码分割、缓存） | 重要 |
+| G | 算法与数据结构（前端向 LeetCode 高频题） | 进阶 |
+| H | 综合能力与软技能（系统设计、项目表述） | 进阶 |
